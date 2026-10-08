@@ -48,7 +48,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     group: "sarees",
     targetCount: 105,
     description: "Lightweight, whisper-soft silk sarees with subtle sheen in modern pastel and jewel tones.",
-    image: "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1610030469668-935a8f596646?auto=format&fit=crop&w=900&q=80",
     featured: true,
   },
   {
@@ -58,7 +58,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     group: "sarees",
     targetCount: 85,
     description: "Delicate sheer organza sarees with hand-painted botanicals, scalloped borders, and pearl accents.",
-    image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: "saree-chiffon",
@@ -67,7 +67,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     group: "sarees",
     targetCount: 90,
     description: "Featherlight, floating drapes with subtle crystal highlights and fluid feminine silhouettes.",
-    image: "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: "saree-georgette",
@@ -76,7 +76,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     group: "sarees",
     targetCount: 100,
     description: "Flowing textured georgette sarees with sequin detailing, contemporary borders, and effortless pleats.",
-    image: "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80",
   },
   {
     id: "saree-party-wear",
@@ -85,7 +85,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     group: "sarees",
     targetCount: 115,
     description: "Glamorous cocktail sarees with metallic shimmer, ready-to-wear drapes, and designer borders.",
-    image: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1610030469668-935a8f596646?auto=format&fit=crop&w=900&q=80",
     featured: true,
   },
   {
@@ -95,7 +95,7 @@ export const COLLECTIONS_DATA: Collection[] = [
     group: "sarees",
     targetCount: 140,
     description: "Magnificent heirloom bridal masterworks designed for grand celebrations and eternal moments.",
-    image: "https://images.unsplash.com/photo-1610030469668-935a8f596646?auto=format&fit=crop&w=900&q=80",
+    image: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80",
     featured: true,
   },
 
