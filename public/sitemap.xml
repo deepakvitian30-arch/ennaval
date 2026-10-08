@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Public Pages -->
+  <url>
+    <loc>https://ennaval.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#collections</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#sarees</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#ethnic</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#western</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#cosmetics</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#new-arrivals</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#privacy-policy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ennaval.com/#terms-and-conditions</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- 34 Collections -->
+  <!-- A. Saree Collections -->
+  <url><loc>https://ennaval.com/#collections/silk-sarees</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/kanjivaram-sarees</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/banarasi-sarees</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/cotton-sarees</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/soft-silk-sarees</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/organza-sarees</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/chiffon-sarees</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/georgette-sarees</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/party-wear-sarees</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/festive-and-bridal-sarees</loc><priority>0.9</priority></url>
+
+  <!-- B. Ethnic Wear Collections -->
+  <url><loc>https://ennaval.com/#collections/salwar-suits</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/churidars</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/anarkali-dresses</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/kurtis-and-kurtas</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/kurta-sets</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/lehenga-sets</loc><priority>0.9</priority></url>
+  <url><loc>https://ennaval.com/#collections/festive-ethnic-wear</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/bridal-and-occasion-wear</loc><priority>0.9</priority></url>
+
+  <!-- C. Western Wear Collections -->
+  <url><loc>https://ennaval.com/#collections/dresses</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/tops-and-shirts</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/t-shirts</loc><priority>0.6</priority></url>
+  <url><loc>https://ennaval.com/#collections/jeans-and-trousers</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/skirts</loc><priority>0.6</priority></url>
+  <url><loc>https://ennaval.com/#collections/co-ord-sets</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/jumpsuits</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/party-wear-and-occasion-dresses</loc><priority>0.8</priority></url>
+
+  <!-- D. Cosmetics & Beauty Collections -->
+  <url><loc>https://ennaval.com/#collections/lipsticks-and-lip-products</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/foundation-and-concealer</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/face-makeup</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/eye-makeup</loc><priority>0.7</priority></url>
+  <url><loc>https://ennaval.com/#collections/skincare</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/fragrances</loc><priority>0.8</priority></url>
+  <url><loc>https://ennaval.com/#collections/beauty-tools-and-accessories</loc><priority>0.6</priority></url>
+  <url><loc>https://ennaval.com/#collections/makeup-kits-and-gift-sets</loc><priority>0.8</priority></url>
+</urlset>

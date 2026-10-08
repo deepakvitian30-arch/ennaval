@@ -16,18 +16,27 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5180,
     strictPort: false,
-    open: true,
-    proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
-        changeOrigin: true,
-      },
-    },
+    open: false,
   },
   preview: {
     host: '0.0.0.0',
     port: 4173,
     strictPort: false,
-    open: true,
+    open: false,
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id: string) {
+          if (id.includes('node_modules/three')) {
+            return 'vendor-three';
+          }
+          if (id.includes('node_modules/motion')) {
+            return 'vendor-motion';
+          }
+        },
+      },
+    },
+    chunkSizeWarningLimit: 800,
   },
 })

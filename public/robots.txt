@@ -1,0 +1,9 @@
+# ENNAVAL Robots Configuration
+# Update Host and Sitemap URL once production domain is confirmed by owners.
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /checkout
+Disallow: /account/private
+
+Sitemap: https://ennaval.com/sitemap.xml
