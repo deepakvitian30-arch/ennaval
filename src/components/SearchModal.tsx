@@ -43,7 +43,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({
         p.name.toLowerCase().includes(q) ||
         p.description.toLowerCase().includes(q) ||
         (p.fabricOrMaterial && p.fabricOrMaterial.toLowerCase().includes(q)) ||
-        (p.weaveOrFinish && p.weaveOrFinish.toLowerCase().includes(q));
+        (p.weaveOrFinish && p.weaveOrFinish.toLowerCase().includes(q)) ||
+        (p.tags && p.tags.some(t => t.toLowerCase().includes(q)));
       return matchGroup && matchText;
     });
 
@@ -77,7 +78,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search sarees, silhouettes, beauty, fabrics..."
+            placeholder="Search sarees, silhouettes, beauty, fabrics, potlis..."
             autoFocus
             className="flex-1 bg-transparent text-sm sm:text-base outline-none text-[#1A1215] placeholder-stone-400 font-sans"
           />
@@ -105,7 +106,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             { id: 'sarees', label: 'Sarees' },
             { id: 'ethnic', label: 'Ethnic Wear' },
             { id: 'western', label: 'Western Wear' },
-            { id: 'cosmetics', label: 'Cosmetics' },
+            { id: 'cosmetics', label: 'Beauty' },
+            { id: 'accessories', label: 'Accessories' },
           ].map((cat) => (
             <button
               key={cat.id}

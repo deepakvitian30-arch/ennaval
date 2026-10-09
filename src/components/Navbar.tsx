@@ -49,10 +49,10 @@ export const Navbar: React.FC<NavbarProps> = ({
   const navItems = [
     { label: 'Home', route: 'home' },
     { label: 'Sarees', route: 'sarees' },
-    { label: 'Ethnic Wear', route: 'ethnic' },
-    { label: 'Western Wear', route: 'western' },
-    { label: 'Cosmetics', route: 'cosmetics' },
-    { label: 'New Arrivals', route: 'new-arrivals' },
+    { label: 'Ethnic', route: 'ethnic' },
+    { label: 'Western', route: 'western' },
+    { label: 'Beauty', route: 'cosmetics' },
+    { label: 'Accessories', route: 'accessories' },
     { label: 'Collections', route: 'collections' },
     { label: 'About', route: 'about' },
     { label: 'Contact', route: 'contact' },
@@ -78,7 +78,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="flex-1 text-center font-light text-[11px] sm:text-xs">
               <span className="text-[#E8B4B8] font-medium mr-1.5">Grand Showcase:</span>
               <span className="text-stone-200">
-                Complimentary insured delivery across India • Discover 34 curated collections
+                Complimentary insured delivery across India • Discover 38 curated collections
               </span>
             </div>
 

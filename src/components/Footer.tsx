@@ -164,6 +164,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenCookiePreferen
               </button>
             </li>
             <li>
+              <button onClick={() => onNavigate('accessories')} className="hover:text-[#D4AF37] transition-colors">
+                Zardozi Potlis &amp; Temple Jewellery
+              </button>
+            </li>
+            <li>
               <button onClick={() => onNavigate('new-arrivals')} className="hover:text-[#D4AF37] transition-colors">
                 Latest Season Arrivals
               </button>
@@ -199,7 +204,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenCookiePreferen
             </li>
             <li>
               <button onClick={() => onNavigate('collections')} className="hover:text-[#D4AF37] transition-colors">
-                All 34 Collections Directory
+                All 38 Collections Directory
               </button>
             </li>
             <li>

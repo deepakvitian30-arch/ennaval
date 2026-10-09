@@ -44,7 +44,7 @@ function getRouteInfoFromHash() {
   } else if (main === 'collections' && param) {
     const foundCol = COLLECTIONS_DATA.find((c) => c.slug === param || c.id === param);
     return { route: 'shop', productId: null, collectionId: foundCol ? foundCol.id : null };
-  } else if (['home', 'sarees', 'ethnic', 'western', 'cosmetics', 'new-arrivals', 'collections', 'about', 'contact', 'privacy-policy', 'terms-and-conditions'].includes(main)) {
+  } else if (['home', 'sarees', 'ethnic', 'western', 'cosmetics', 'accessories', 'new-arrivals', 'collections', 'about', 'contact', 'privacy-policy', 'terms-and-conditions', 'shop'].includes(main)) {
     return { route: main, productId: null, collectionId: null };
   } else {
     return { route: '404', productId: null, collectionId: null };
@@ -138,8 +138,10 @@ export default function App() {
       title = `Contemporary Western Dresses & Silhouettes — ENNAVAL`;
     } else if (currentRoute === 'cosmetics') {
       title = `Luxury Cosmetics, Skincare & Fragrances — ENNAVAL`;
+    } else if (currentRoute === 'accessories') {
+      title = `Luxury Potlis, Temple Jewellery & Stoles — ENNAVAL`;
     } else if (currentRoute === 'collections') {
-      title = `34 Curated Collections Architecture — ENNAVAL Boutique`;
+      title = `38 Curated Collections Architecture — ENNAVAL Boutique`;
     } else if (currentRoute === 'about') {
       title = `About ENNAVAL — Pavithran & Nandhini Founders Story`;
     } else if (currentRoute === 'contact') {
@@ -300,6 +302,7 @@ export default function App() {
           currentRoute === 'ethnic' ||
           currentRoute === 'western' ||
           currentRoute === 'cosmetics' ||
+          currentRoute === 'accessories' ||
           currentRoute === 'new-arrivals' ||
           currentRoute === 'shop') && (
           <ShopView
@@ -311,6 +314,7 @@ export default function App() {
             onToggleWishlist={handleToggleWishlist}
             onAddToCart={handleAddToCart}
             wishlistIds={wishlistIds}
+            onNavigate={(route: string) => navigateTo(route)}
           />
         )}
 

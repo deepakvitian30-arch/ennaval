@@ -1,4 +1,4 @@
-export type CategoryGroup = 'sarees' | 'ethnic' | 'western' | 'cosmetics';
+export type CategoryGroup = 'sarees' | 'ethnic' | 'western' | 'cosmetics' | 'accessories';
 
 export interface Collection {
   id: string;
@@ -9,6 +9,7 @@ export interface Collection {
   description: string;
   image: string;
   featured?: boolean;
+  parentCategoryName?: string;
 }
 
 export interface Product {
@@ -29,10 +30,12 @@ export interface Product {
   colors?: string[];
   sizes?: string[];
   occasion?: string[];
+  tags?: string[];
   inStock: boolean;
   stockCountLabel?: string;
   isNewArrival?: boolean;
   isTrending?: boolean;
+  isBestseller?: boolean;
   sampleInventoryNotice: string;
   rating?: number;
   reviewsCount?: number;
